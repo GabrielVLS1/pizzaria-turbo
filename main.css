@@ -1,0 +1,294 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-size: 21px;
+}
+
+header {
+    background-image: linear-gradient(to right, rgb(20, 7, 7), rgb(139, 31, 18));
+    /* background-color: white; */
+    color: white;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    height: 10vh;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+}
+
+.navbar h1{
+    font-size: 45px;
+    margin-top: 1%;
+}
+
+/* .carousel-inner{
+    position: relative;
+} */
+
+.nav-link{
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    margin-right: 20px;
+}
+
+.card-img-overlay{
+    background-color: rgb(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+}
+
+.card-img-overlay .btn{
+    font-size: larger;
+    font-weight: bold;
+    margin-top: 70%;
+}
+
+#cards {
+    margin-top: 5%;
+    margin-bottom: -10%;
+}
+
+
+.card {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.carousel-caption {
+    position: absolute;
+    /* box-shadow: 0 1px 6px black; */
+    background-image: linear-gradient(to bottom right, rgba(55, 34, 31, 0.65), rgba(73, 30, 9, 0.65) 50%);
+    /* margin-top: 100px; */
+    border-radius: 30px 0 30px 0;
+    width: 50%;
+    margin: 11% auto;
+    text-shadow: 0 2px 3px black;
+}
+
+.carousel-caption h1{
+    font-size: 80px;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    font-weight: 300;
+    line-height: 1;
+}
+
+.carousel-caption span{
+    font-size: 140px;
+    font-weight: 500;
+    
+}
+
+.carousel-caption p{
+    font-size: 35px;
+    font-weight: 300;
+    background-color: rgba(183, 177, 58, 0.7);
+    padding: 4px;
+}
+
+.carousel-caption div{
+    margin-top: 4%;
+}
+
+.carousel img{
+    height: 90vh;
+    /* width: auto; */
+    object-fit: cover;
+}
+
+/* #sobre{
+    margin-top: 5%;
+} */
+
+#texto-sobre{
+    margin-top: 8%;
+}
+
+#texto-sobre h1{
+    font-size: 88px;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    line-height: 1.1;
+    color:  rgb(127, 11, 11);
+    /* font-weight: bold; */
+}
+
+#texto-sobre h2{
+    font-size: 40px;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    color:  rgb(127, 122, 31);
+}
+
+#sobre img{  
+    /* border: 2px solid red; */
+    width: 40vw;
+}
+
+footer {
+    background-image: linear-gradient(to right, rgb(20, 7, 7), rgb(139, 31, 18));
+    padding-top: 1.5%;
+    padding-bottom: 0.5%;
+}
+
+.spacer {
+    min-height: 40vh;
+}
+
+.container-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-flex{
+    display: flex;
+}
+
+
+footer li {
+    list-style: none;
+    margin-left: 2%;
+    
+}
+
+footer li img {
+    height: 75%;
+}
+
+footer p {
+    color: white;
+}
+
+#sobre{
+    padding-top: 4%;
+}
+
+#pizza{
+    padding-top: 1%;
+}
+
+
+
+@media screen and (max-width: 630px) {
+    .carousel-caption {
+        margin: 50% auto;
+    }
+}
+
+
+@media screen and (max-width: 993px) {
+    header {
+        margin-bottom: -4.5%;
+    }
+
+    header a{
+        font-size: 17px;
+        display: block;
+    }
+
+    #menu{
+        background-image: linear-gradient(to bottom right, rgb(139, 31, 18),  rgb(20, 7, 7));
+    }
+
+    #texto-sobre{
+        width: 100%;
+    }
+    
+    #texto-sobre h1{
+        text-align: center;
+    }
+
+    #sobre div{
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+    .carousel-caption {
+        position: absolute;
+        width: 65%;
+        margin: 30% auto;
+    }
+
+    .carousel-caption div{
+        margin-top: 8%;
+    }
+
+    .carousel-caption span{
+        font-size: 95px;
+    }    
+    
+    .carousel-caption h1{
+        font-size: 70px;
+    }
+
+    .carousel-caption p{
+        font-size: 25px;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    #sobre p{
+        margin-right: 0;
+        padding: 4%;
+        font-size: 16x;
+    }
+
+    #texto-sobre-loja {
+        margin-bottom: -12%;
+    }
+
+    #img-sobre {
+        width: 100%;
+        height: 40vh;
+    }
+    #sobre img{  
+        /* border: 2px solid red; */
+        width: 90vw;
+    }
+
+    #cards .col-md-4{
+        margin-top: 5%;
+    } 
+
+    #cards {
+        margin-top: 40%;
+        margin-bottom: -50%;
+    }
+
+    .container {
+        max-width: 90%;
+    }
+}
+
+
+
+@media screen and (min-width: 641px) and (max-width: 1023px) {
+    /* #cards {
+        grid-template-columns: repeat(2, 49%);
+    } */
+
+    
+
+    .container {
+        max-width: 90%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .card-img-overlay .btn{
+        margin-top: -40%;
+    }
+}
+
+
+@media screen and (max-width: 1400px) {
+    .card-img-overlay .btn{
+        margin-top: 40%; 
+    }
+}

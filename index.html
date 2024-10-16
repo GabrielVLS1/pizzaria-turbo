@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PIZZARIA TURBO</title>
+    <link rel="stylesheet" href="../lib/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>        
+     <header id="cabecalho">
+        <div class="navbar navbar-expand-lg">
+            <div class="container">
+                <h1>PIZZARIA TURBO🍕</h1>
+                <button type='button' class="nav-toggler d-lg-none" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                    <ul class="nav navbar-nav nav-pills">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sobre">Sobre Nós</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#pizza">Pizzas</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header> 
+
+
+
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho">
+    
+        <div class="carousel carousel-fade slide" id="carousel-exemplo" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="3000">
+                    <img class="d-block w-100" src="https://images.squarespace-cdn.com/content/v1/63ea79616b7f6962f86548ab/98c4b11f-1e41-4102-b01b-445a2f25da0e/pizzaria-bela-vista.jpg?format=2500w" alt="">
+                    <div class="carousel-caption">
+                        <h1><span>PIZZARIA</span> <br>TURBO<br> <div><p>Informe seu endereço para encontrarmos a PIZZARIA TURBO <br>mais próxima de você! 📍</p></div><p></p></h1>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img class="d-block w-100" src="https://123shop.net.br/cdn/shop/files/edusma7256_a_realistic_photography_of_pizza_in_close_up_2449f0dc-f52a-4be0-927f-145c22aae0c2_1200x.png?v=1688147970" alt="">
+                    <div class="carousel-caption">
+                        <h1><span>AS MELHORES</span>  <br>PIZZAS DO MUNDO <br>  <div><p>Informe seu endereço para encontrarmos a PIZZARIA TURBO <br>mais próxima de você! 📍</p></div><p></p></h1>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img class="d-block w-100" src="https://tpaempreendimentos.com.br/blog/wp-content/uploads/2019/02/shutterstock-84904912-1024x683.jpg" alt="">
+                    <div class="carousel-caption">
+                        <h1><span>PIZZAS ESPECIAIS</span>  <br>E INCRÍVEIS<br>  <div><p>Informe seu endereço para encontrarmos a PIZZARIA TURBO <br>mais próxima de você! 📍</p></div><p></p></h1>
+                    </div>
+                </div>
+            </div>
+
+            <button data-bs-target="#carousel-exemplo" class="carousel-control-prev" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button data-bs-target="#carousel-exemplo" class="carousel-control-next" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+
+        </div>
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carousel-exemplo" class="active" data-bs-slide-to="0"></button>
+            <button type="button" data-bs-target="#carousel-exemplo" class="active" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#carousel-exemplo" class="active" data-bs-slide-to="2"></button>
+        </div>
+        </div>
+    
+
+        <div class="container" id="sobre">
+            <div class="row">
+                <div class="col-6" id="texto-sobre">
+                    <h2>Um novo conceito em pizzas</h2>
+                    <h1>PIZZARIA TURBO</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur 
+                        adipisicing elit. Error, vitae similique adipisci
+                        minima id cum eum numquam quasi praesentium
+                        harum quia ex natus incidunt ratione, 
+                        ducimus enim rem. Beatae, dolorum!
+                    </p>
+                    <p>Lorem ipsum dolor sit amet consectetur 
+                        adipisicing elit. Error, vitae similique adipisci
+                        minima id cum eum numquam quasi praesentium
+                        harum quia ex natus incidunt ratione, 
+                        ducimus enim rem. Beatae, dolorum!
+                    </p>
+                </div>
+                <div class="col-6" id="img-sobre">
+                    <img src="https://images.squarespace-cdn.com/content/v1/63ea79616b7f6962f86548ab/97605601-2c26-4700-83db-e7a13b40fa19/pizzaria-bixiga.png?format=750w" alt="">
+                </div>
+            </div>
+        </div>
+
+    <div id="pizza"></div>
+    <div class="container" id="cards">
+        <div class="row">
+            <div class="col-md-4" id="prim-card">
+                <div class="card text-bg-dark">
+                    <img src="https://jullia.com.br/wp-content/uploads/2018/09/Pizza-Veg-Integ-01.jpg" alt="" class="img-fluid">
+                    <div class="card-img-overlay">
+                        <h4 class="card-title">Pizzas Especiais</h4>
+                        <h5 class="card-subtitle"></h5>
+                        <p class="card-text">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                            Quisquam repellat quaerat, quas ducimus, 
+                            aliquam enim hic distinctio dolor optio officiis sunt aspernatur 
+                            quam iusto neque maxime nemo expedita obcaecati aliquid.
+                        </p>
+                        <a href="#" class="btn btn-danger">ESCOLHER  &nbsp;SABORES</a>
+                    </div>
+                </div>
+            </div>
+            <div class= "col-md-4">
+                <div class="card text-bg-dark">
+                    <img src="https://jullia.com.br/wp-content/uploads/2018/09/Pizza-Mortadela-06.jpg" alt="" class="img-fluid">
+                    <div class="card-img-overlay">
+                        <h4 class="card-title">Pizzas Especiais</h4>
+                        <h5 class="card-subtitle"></h5>
+                        <p class="card-text">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                            Quisquam repellat quaerat, quas ducimus, 
+                            aliquam enim hic distinctio dolor optio officiis sunt aspernatur 
+                            quam iusto neque maxime nemo expedita obcaecati aliquid.
+                        </p>
+                        <a href="#" class="btn btn-danger">ESCOLHER  &nbsp;SABORES</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-bg-dark">
+                    <img src="https://jullia.com.br/wp-content/uploads/2018/09/Pizza-Burrata-04.jpg" alt="" class="img-fluid">
+                    <div class="card-img-overlay">
+                        <h4 class="card-title">Pizzas Especiais</h4>
+                        <h5 class="card-subtitle"></h5>
+                        <p class="card-text">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                            Quisquam repellat quaerat, quas ducimus, 
+                            aliquam enim hic distinctio dolor optio officiis sunt aspernatur 
+                            quam iusto neque maxime nemo expedita obcaecati aliquid.
+                        </p>
+                        <a href="#" class="btn btn-danger">ESCOLHER &nbsp;SABORES</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="spacer"></div>
+    
+    <footer class="bg-primary text-white mt-auto">
+        <div class="container container-footer">
+            <p>2024 &copy; PIZZARIA TURBO - Todos os direitos reservados</p>
+            <ul class="container-flex">
+                <li>
+                    <a href="">
+                        <img src="./icones/facebook.png" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="./icones/instagram.png" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="./icones/youtube.png" alt="">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    
+    <script src="../lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
